@@ -5,7 +5,7 @@ const usernameInput = document.getElementById("usernameInput");
 const messageInput = document.getElementById("messageInput");
 const messagesPool = document.getElementById("messagesPool");
 
-// Definimos la funcion que envia mensajes
+// Definimos la funcion que envia mensajess
 const sendMessage = (messageInfo) => {
   // Emitiendo el evento "client:message" para mandar la informacion del mensaje al back a traves de websocket
   socket.emit("client:message", messageInfo);
